@@ -152,22 +152,26 @@ html {
     background-color: #333;
     padding: 5rem 0;
 }
-.gallery{
+
+.gallery {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
 }
-.gallery-link{
+
+.gallery-link {
     position: relative;
     margin: 4rem 1rem;
 }
+
 .food-img {
     width: 24vw;
     height: 15vw;
     object-fit: cover;
 }
-.foot-name{
+
+.foot-name {
     position: absolute;
     top: 3rem;
     left: 3rem;
@@ -177,7 +181,8 @@ html {
     letter-spacing: 0.1rem;
     color: white;
 }
-.foot-description{
+
+.foot-description {
     position: absolute;
     bottom: 3vw;
     left: 2rem;
@@ -188,4 +193,5 @@ html {
     text-transform: uppercase;
     color: white;
 }
+
 /* End of section 3 */
