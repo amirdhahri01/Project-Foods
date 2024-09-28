@@ -16,6 +16,16 @@ html {
     font-size: 62.5%;
 }
 
+.section-heading {
+    font-size: 12rem;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.5rem;
+    text-shadow: 0.3rem 0.3rem 0.3rem black;
+}
+
 /*End of common styles  */
 
 /* Section 1 */
@@ -29,15 +39,7 @@ html {
     align-items: center;
 }
 
-.section-heading {
-    font-size: 12rem;
-    font-weight: 900;
-    color: white;
-    text-align: center;
-    text-transform: capitalize;
-    letter-spacing: 0.5rem;
-    text-shadow: 0.3rem 0.3rem 0.3rem black;
-}
+
 
 .section-1-icons i {
     font-size: 35rem;
