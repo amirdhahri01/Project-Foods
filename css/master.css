@@ -146,3 +146,46 @@ html {
 }
 
 /* End of section 1 */
+
+/* Section 3 */
+.section-3 {
+    background-color: #333;
+    padding: 5rem 0;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.gallery-link{
+    position: relative;
+    margin: 4rem 1rem;
+}
+.food-img {
+    width: 24vw;
+    height: 15vw;
+    object-fit: cover;
+}
+.foot-name{
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+.foot-description{
+    position: absolute;
+    bottom: 3vw;
+    left: 2rem;
+    width: 70%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: white;
+}
+/* End of section 3 */
