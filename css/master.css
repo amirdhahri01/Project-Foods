@@ -33,12 +33,12 @@ html {
     height: 14rem;
     background-color: black;
     position: fixed;
-    top: 0;
+    top: -14rem;
     z-index: 100;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0.2rem 0.2rem 0.2rem blak;
+    box-shadow: 0.2rem 0.2rem 0.2rem black;
 }
 
 .navbar-link {
@@ -71,15 +71,15 @@ html {
     height: 6rem;
     background-color: black;
     position: fixed;
-    top: 15rem;
+    top: 1rem;
     left: 5rem;
     border-radius: 30rem 30rem 15rem 15rem;
     box-shadow: 0.1rem 0.1rem 0.1rem black,
-                -0.1rem -0.1rem 0.1rem black;
+        -0.1rem -0.1rem 0.1rem black;
     cursor: pointer;
-    position: relative;
 }
-.menu::before{
+
+.menu::before {
     content: "";
     position: absolute;
     width: 0.3rem;
@@ -90,6 +90,7 @@ html {
     transform: translateX(-50%);
     box-shadow: 0.1rem 0 0.1rem #000;
 }
+
 /* End of navbar */
 /* Section 1 */
 .section-1 {
