@@ -505,33 +505,41 @@ html {
         font-size: 2rem;
     }
 }
+
 @media (max-width:700px) {
-    .section-heading{
+    .section-heading {
         font-size: 7rem;
         margin: 0 10rem;
     }
-    .section-1-icons i{
+
+    .section-1-icons i {
         font-size: 20rem;
     }
-    .menu{
+
+    .menu {
         left: 2rem;
     }
-    .section-4{
+
+    .section-4 {
         height: 40rem;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
     }
-    .section-4-text{
+
+    .section-4-text {
         margin-bottom: 8rem;
     }
 }
+
 @media (max-width:550px) {
-    html{
+    html {
         font-size: 40%;
     }
-    .navbar-link{
+
+    .navbar-link {
         margin: 0 0.7rem;
     }
 }
+
 /* End of responsive */
